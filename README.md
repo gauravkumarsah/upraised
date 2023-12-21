@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Quiz Application using Next.js
+
+This project is a simple quiz application developed using Next.js, where users can attempt quizzes and view their scores.
+
+## Features
+
+- **Quiz Interface:** Users can interact with the quiz interface to answer questions.
+- **Score Calculation:** The application calculates and displays the user's score upon quiz completion.
+- **Timer:** A timer tracks the time taken by the user to complete the quiz.
+
 
 ## Getting Started
 
@@ -14,23 +23,42 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies Used
 
-## Learn More
+- **Next.js:** A React framework for building server-rendered applications.
+- **React:** JavaScript library for building user interfaces.
+- **API Integration:** Fetching questions and submitting answers using APIs.
+- **SVG:** Using scalable vector graphics for visual elements.
 
-To learn more about Next.js, take a look at the following resources:
+## Setup Instructions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Run `npm install` to install dependencies.
+4. Use `npm run dev` to start the development server.
+5. Access the application via `http://localhost:3000` in your web browser.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Project Structure
 
-## Deploy on Vercel
+- `pages/`: Contains Next.js pages and routing.
+- `components/`: Reusable React components used in the application.
+- `api/`: API endpoints and functions for quiz-related operations.
+- `styles/`: CSS or styling files for the application.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Usage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Start the application locally using `npm run dev`.
+- Navigate to the quiz section and start attempting quizzes.
+- Upon completion, view your score and performance details.
+
+## Contributing
+
+Contributions are welcome! Feel free to submit issues, feature requests, or pull requests.
+
+## License
+
+This project is licensed under the https://github.com/gauravkumarsah/.
+
+
